@@ -39,8 +39,54 @@
 %-----------------------------------------------------------------------------%
 
 %-----------------------------------------------------------------------------%
+%   Aerodynamics
+%-----------------------------------------------------------------------------%
+
+@report {Jameson2003,
+    AUTHOR = {Jameson, Antony},
+     TITLE = {Aerodynamic Shape Optimization Using the Adjoint Method},
+   JOURNAL = {Lectures at the Von Karman Institute, Brussels},
+      YEAR = {2003},
+}
+
+%-----------------------------------------------------------------------------%
 %   Fluid Dynamics
 %-----------------------------------------------------------------------------%
+
+@article {Giles_Pierce2000,
+    AUTHOR = {Giles, Michael B. and Pierce, Niles A.},
+     TITLE = {An Introduction to the Adjoint Approach to Design},
+   JOURNAL = {Flow, Turbulence and Combustion},
+  FJOURNAL = {Flow, Turbulence and Combustion},
+    VOLUME = {65},
+      YEAR = {2000},
+    NUMBER = {3},
+     PAGES = {393--415},
+       DOI = {10.1023/A:1011430410075},
+       URL = {https://doi.org/10.1023/A:1011430410075},
+}
+
+@incollection {Soto_Lohner2004,
+    AUTHOR = {Soto, Orlando and Lohner, Rainald},
+     TITLE = {On the Boundary Computation of Flow Sensitivities},
+ BOOKTITLE = {42nd AIAA Aerospace Sciences Meeting and Exhibit},
+      YEAR = {2004},
+       DOI = {10.2514/6.2004-112},
+       URL = {https://arc.aiaa.org/doi/abs/10.2514/6.2004-112},
+}
+
+@article {Soto_Lohner_Yang2004,
+    AUTHOR = {Soto, Orlando and L\"ohner, Rainald and Yang, Chi},
+     TITLE = {An adjoint-based design methodology for CFD problems},
+   JOURNAL = {International Journal of Numerical Methods for Heat \& Fluid Flow},
+  FJOURNAL = {International Journal of Numerical Methods for Heat \& Fluid Flow},
+    VOLUME = {14},
+      YEAR = {2004},
+    NUMBER = {6},
+     PAGES = {734--759},
+       DOI = {10.1108/09615530410544292},
+       URL = {https://doi.org/10.1108/09615530410544292},
+}
 
 @book {Warsi1999,
     AUTHOR = {Warsi, Z. U. A.},
@@ -79,6 +125,26 @@ MRREVIEWER = {John F. Harper},
  PUBLISHER = {CRC Press},
       YEAR = {1980},
      PAGES = {xiv+197},
+}
+
+%-----------------------------------------------------------------------------%
+%   Structural Mechanics
+%-----------------------------------------------------------------------------%
+
+@book {Choi_Kim2004,
+    AUTHOR = {Choi, Kyung K. and Kim, Nam H.},
+     TITLE = {Structural Sensitivity Analysis and Optimization 1: Linear Systems},
+ PUBLISHER = {Springer},
+      YEAR = {2004},
+     PAGES = {xvii+446},
+}
+
+@book {Choi_Kim2005,
+    AUTHOR = {Choi, Kyung K. and Kim, Nam H.},
+     TITLE = {Structural Sensitivity Analysis and Optimization 2: Nonlinear Systems and Applications},
+ PUBLISHER = {Springer},
+      YEAR = {2005},
+     PAGES = {447--772},
 }
 
 %-----------------------------------------------------------------------------%
@@ -651,6 +717,26 @@ MRREVIEWER = {Catherine Sulem},
        URL = {https://doi.org/10.1002/mana.200310165},
 }
 
+@article {Bernardi_Rebollo_Yakoubi2015,
+    AUTHOR = {Bernardi, Christine and Chac\'{o}n Rebollo, Tom\'{a}s and Yakoubi,
+              Driss},
+     TITLE = {Finite element discretization of the {S}tokes and
+              {N}avier-{S}tokes equations with boundary conditions on the
+              pressure},
+   JOURNAL = {SIAM J. Numer. Anal.},
+  FJOURNAL = {SIAM Journal on Numerical Analysis},
+    VOLUME = {53},
+      YEAR = {2015},
+    NUMBER = {3},
+     PAGES = {1256--1279},
+      ISSN = {0036-1429},
+   MRCLASS = {65N30 (35Q30 76D05 76D07)},
+  MRNUMBER = {3345937},
+MRREVIEWER = {Ioannis Doltsinis},
+       DOI = {10.1137/140972299},
+       URL = {https://doi.org/10.1137/140972299},
+}
+
 @article {Berselli2009,
     AUTHOR = {Berselli, Luigi C.},
      TITLE = {Some criteria concerning the vorticity and the problem of
@@ -974,6 +1060,22 @@ MRREVIEWER = {Hakima Bessaih},
      PAGES = {xviii+224},
    MRCLASS = {35.00 (76.00)},
   MRNUMBER = {0254401},
+}
+
+@article {Leray1934,
+    AUTHOR = {Leray, Jean},
+     TITLE = {Sur le mouvement d'un liquide visqueux emplissant l'espace},
+   JOURNAL = {Acta Math.},
+  FJOURNAL = {Acta Mathematica},
+    VOLUME = {63},
+      YEAR = {1934},
+    NUMBER = {1},
+     PAGES = {193--248},
+      ISSN = {0001-5962},
+   MRCLASS = {DML},
+  MRNUMBER = {1555394},
+       DOI = {10.1007/BF02547354},
+       URL = {https://doi.org/10.1007/BF02547354},
 }
 
 @article {Liakos2001,
@@ -1717,6 +1819,67 @@ MRREVIEWER = {Irena Lasiecka},
 %       Topology Optimization
 %-----------------------------------------------------------------------------%
 
+@book {Bendsoe1995,
+    AUTHOR = {Bends\o e, Martin P.},
+     TITLE = {Optimization of structural topology, shape, and material},
+ PUBLISHER = {Springer-Verlag, Berlin},
+      YEAR = {1995},
+     PAGES = {xii+271},
+      ISBN = {3-540-59057-9},
+   MRCLASS = {73K40 (49Q10 73K20 73V25 90C90)},
+  MRNUMBER = {1350791},
+MRREVIEWER = {Robert V. Kohn},
+       DOI = {10.1007/978-3-662-03115-5},
+       URL = {https://doi.org/10.1007/978-3-662-03115-5},
+}
+
+@article {Borrvall_Petersson2002,
+    AUTHOR = {Borrvall, Thomas and Petersson, Joakim},
+     TITLE = {Topology optimization of fluids in {S}tokes flow},
+   JOURNAL = {Internat. J. Numer. Methods Fluids},
+  FJOURNAL = {International Journal for Numerical Methods in Fluids},
+    VOLUME = {41},
+      YEAR = {2003},
+    NUMBER = {1},
+     PAGES = {77--107},
+      ISSN = {0271-2091},
+   MRCLASS = {76D55 (49Q10 65N30 76M10)},
+  MRNUMBER = {1949585},
+MRREVIEWER = {Thomas Slawig},
+       DOI = {10.1002/fld.426},
+       URL = {https://doi.org/10.1002/fld.426},
+}
+
+@article {Eschenauer_Olhoff2001,
+    AUTHOR = {Eschenauer, Hans A. and Olhoff, Niels},
+     TITLE = {Topology optimization of continuum structures: A review},
+   JOURNAL = {Appl. Mech. Rev.},
+  FJOURNAL = {Applied Mechanics Review},
+    VOLUME = {54},
+      YEAR = {2001},
+    NUMBER = {4},
+     PAGES = {331--390},
+       DOI = {10.1115/1.1388075},
+       URL = {https://doi.org/10.1115/1.1388075},
+}
+
+@article {Klarbring_Petersson_Torstenfelt_Karlsson2003,
+    AUTHOR = {Klarbring, Anders and Petersson, Joakim and Torstenfelt, Bo
+              and Karlsson, Matts},
+     TITLE = {Topology optimization of flow networks},
+   JOURNAL = {Comput. Methods Appl. Mech. Engrg.},
+  FJOURNAL = {Computer Methods in Applied Mechanics and Engineering},
+    VOLUME = {192},
+      YEAR = {2003},
+    NUMBER = {35-36},
+     PAGES = {3909--3932},
+      ISSN = {0045-7825},
+   MRCLASS = {76B75 (74L15 74P15 76Z05 90B10)},
+  MRNUMBER = {1997835},
+       DOI = {10.1016/S0045-7825(03)00393-1},
+       URL = {https://doi.org/10.1016/S0045-7825(03)00393-1},
+}
+
 @article {Othmer2008,
     AUTHOR = {Othmer, C.},
      TITLE = {A continuous adjoint formulation for the computation of
@@ -1746,6 +1909,18 @@ MRREVIEWER = {Irena Lasiecka},
     VOLUME = {t. 329, S\'erie II b},
       YEAR = {2001},
      PAGES = {383--396},
+}
+
+@article {Cabuk_Modi1992,
+    AUTHOR = {\c{C}abuk, Hayri and Modi, Vijay},
+     TITLE = {Optimum plane diffusers in laminar flow},
+   JOURNAL = {J. Fluid Mech.},
+  FJOURNAL = {Journal of Fluid Mechanics},
+    VOLUME = {237},
+      YEAR = {1992},
+     PAGES = {373--393},
+       DOI = {10.1017/S0022112092003458},
+       URL = {https://doi.org/10.1017/S0022112092003458},
 }
 
 @article {Cea1986,
@@ -1897,6 +2072,36 @@ MRREVIEWER = {Jan Soko\l owski},
        URL = {https://doi.org/10.1007/978-3-540-72153-6_4},
 }
 
+@article {Glowinski_Pironneau1975,
+    AUTHOR = {Glowinski, R. and Pironneau, O.},
+     TITLE = {On the numerical computation of the minimum-drag profile in laminar flow},
+   JOURNAL = {J. Fluid Mech.},
+  FJOURNAL = {Journal of Fluid Mechanics},
+    VOLUME = {72},
+      YEAR = {1975},
+     PAGES = {385--389},
+       DOI = {10.1017/S0022112075003436},
+       URL = {https://doi.org/10.1017/S0022112075003436},
+}
+
+@article {Glowinski_Pironneau1976,
+    AUTHOR = {Glowinski, R. and Pironneau, O.},
+     TITLE = {Towards the computation of minimum drag profiles in viscous
+              laminar flow},
+   JOURNAL = {Appl. Math. Modelling},
+  FJOURNAL = {Applied Mathematical Modelling},
+    VOLUME = {1},
+      YEAR = {1976},
+    NUMBER = {2},
+     PAGES = {58--66},
+      ISSN = {0307-904X},
+   MRCLASS = {76.41},
+  MRNUMBER = {455851},
+MRREVIEWER = {B. Vujanovi\'{c}},
+       DOI = {10.1016/0307-904X(76)90001-9},
+       URL = {https://doi.org/10.1016/0307-904X(76)90001-9},
+}
+
 @article {Haslinger_Ito_Kozubek_Kunisch_Peichl2009,
     AUTHOR = {Haslinger, J. and Ito, K. and Kozubek, T. and Kunisch, K. and
               Peichl, G.},
@@ -1976,6 +2181,22 @@ MRREVIEWER = {Jan Soko\l owski},
   MRNUMBER = {2943988},
        DOI = {10.1016/j.amc.2012.05.032},
        URL = {https://doi.org/10.1016/j.amc.2012.05.032},
+}
+
+@article {Kim_Kim1995,
+    AUTHOR = {Kim, Do Wan and Kim, Moon Uhn},
+     TITLE = {Minimum drag shape in two-dimensional viscous flow},
+   JOURNAL = {Internat. J. Numer. Methods Fluids},
+  FJOURNAL = {International Journal for Numerical Methods in Fluids},
+    VOLUME = {21},
+      YEAR = {1995},
+    NUMBER = {2},
+     PAGES = {93--111},
+      ISSN = {0271-2091},
+   MRCLASS = {76D99 (76D05 76M20 76M30)},
+  MRNUMBER = {1343123},
+       DOI = {10.1002/fld.1650210202},
+       URL = {https://doi.org/10.1002/fld.1650210202},
 }
 
 @article {Ito_Kunisch_Peichl2006,
@@ -2122,6 +2343,38 @@ MRREVIEWER = {Michel C. Delfour},
 MRREVIEWER = {William Jackson Rider},
        DOI = {10.1080/0305215X.2014.892595},
        URL = {https://doi.org/10.1080/0305215X.2014.892595},
+}
+
+@article {Pironneau1972,
+    AUTHOR = {Pironneau, O.},
+     TITLE = {On optimum profiles in {S}tokes flow},
+   JOURNAL = {J. Fluid Mech.},
+  FJOURNAL = {Journal of Fluid Mechanics},
+    VOLUME = {59},
+      YEAR = {1973},
+     PAGES = {117--128},
+      ISSN = {0022-1120},
+   MRCLASS = {76.49},
+  MRNUMBER = {331973},
+MRREVIEWER = {R. K. Rathy},
+       DOI = {10.1017/S002211207300145X},
+       URL = {https://doi.org/10.1017/S002211207300145X},
+}
+
+@article {Pironneau1974,
+    AUTHOR = {Pironneau, O.},
+     TITLE = {On optimum design in fluid mechanics},
+   JOURNAL = {J. Fluid Mech.},
+  FJOURNAL = {Journal of Fluid Mechanics},
+    VOLUME = {64},
+      YEAR = {1974},
+     PAGES = {97--110},
+      ISSN = {0022-1120},
+   MRCLASS = {76.49},
+  MRNUMBER = {347229},
+MRREVIEWER = {E. A. Boyd},
+       DOI = {10.1017/S0022112074002023},
+       URL = {https://doi.org/10.1017/S0022112074002023},
 }
 
 @book {Pironneau1984,
@@ -3003,6 +3256,14 @@ AUTHOR = {Beavers, Gordon S. and Joseph, Daniel D.},
      PAGES = {197--207},
        DOI = {10.1017/S0022112067001375},
        URL = {https://doi.org/10.1017/S0022112067001375},
+}
+
+@book {Oseen1927,
+    AUTHOR = {Oseen, Carl Wilhelm},
+     TITLE = {Neuere Methoden und Ergebnisse in der Hydrodynamik},
+ PUBLISHER = {Akademische Verlagsgesellschaft, Leipzig},
+      YEAR = {1927},
+     PAGES = {xxiv+337},
 }
 
 @article{Maxwell1879,
